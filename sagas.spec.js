@@ -5,9 +5,6 @@ import { incrementAsync, delay } from './sagas';
 
 test('incrementAsync Saga test', (assert) => {
     const gen = incrementAsync();
-    // gen.next() // => { done: false, value: { CALL: { func: delay}} }
-    // gen.next() // => { done: false, value: <result of calling put({type: 'INCREMENT'})> }
-    // gen.next() // => { done: true, value: undefined }
     assert.deepEqual(
         gen.next().value,
         call(delay, 1000),
