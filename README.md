@@ -1,5 +1,6 @@
 # redux-saga-beginner-tutorial
-Companion Repo for [Redux/Redux-saga beginner tutorial](https://github.com/redux-saga/redux-saga/blob/master/docs/introduction/BeginnerTutorial.md)
+This repo contains completed code after following the [Redux/Redux-saga beginner tutorial](https://github.com/redux-saga/redux-saga/blob/master/docs/introduction/BeginnerTutorial.md) to understand the basics of redux-saga.
+It's a simple counter app that uses redux-saga to asyncronously increment a counter after 1 second.
 
 # Instructions
 
@@ -7,7 +8,7 @@ Setup
 
 ```
 // clone the repo
-git clone https://github.com/redux-saga/redux-saga-beginner-tutorial.git
+git clone https://github.com/hrafnkellbaldurs/redux-saga-beginner-tutorial.git
 
 cd redux-saga-beginner-tutorial
 
